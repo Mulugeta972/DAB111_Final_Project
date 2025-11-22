@@ -1,13 +1,34 @@
-# DAB111 Final Project
+# DAB111 Final Project – Group Web Page
 
-## 📁 Folder Structure Overview
+This project showcases our group’s work for the DAB111 course. It includes a Flask-based web application, organized folder structure, and a professional presentation of our team and project goals.
 
-- `data/` – Store raw datasets (CSV, Excel, JSON). Example: `hospital_data.csv`
-- `notebooks/` – Jupyter notebooks for analysis and visualization. Example: `analysis.ipynb`
-- `static/` – Static assets for the web app (CSS, JavaScript, images). Example: `style.css`, `chart.js`
-- `templates/` – HTML templates rendered by Flask. Example: `index.html`, `dashboard.html`
-- `src/` – Core project code:
-  - Flask app logic (`app.py`, `routes.py`)
-  - Data processing scripts (`clean_data.py`)
-  - Utility functions (`helpers.py`)
-- `README.md` – Project overview and collaboration guide
+---
+
+## 📁 Project Structure
+<pre> 
+DAB111_Final_Project/ 
+│ 
+├── app.py 
+├── requirements.txt 
+├── README.md 
+│ 
+├── Website/
+│ ├── templates/ 
+│ │ └── index.html 
+│ ├── static/
+│ │ ── style.css │ 
+├── data/ 
+├── docs/ 
+├── notebooks/ 
+├── src/ 
+</pre>
+---
+
+## 🚀 How to Run the Project
+
+1. **Activate your virtual environment**  
+   ```bash
+   source .venv/Scripts/activate
+   pip install -r requirements.txt
+   python app.py![alt text](image.png)
+
