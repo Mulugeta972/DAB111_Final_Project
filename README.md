@@ -5,6 +5,8 @@ This project showcases our group’s work for the DAB111 course. It includes a F
 ---
 
 ## 📁 Project Structure
+
+```text
 DAB111_Final_Project/
 ├── data/               # Raw datasets (CSV, Excel, JSON)
 ├── notebooks/          # Jupyter notebooks for analysis
@@ -66,5 +68,11 @@ python src/app.py
 7. Final polish and documentation After confirming functionality, we updated the README.md to include instructions for setup, running the app, and troubleshooting. We also added a section for team members and project notes to highlight our collaborative effort.
 
 
+Notes:
+We emphasized clarity and reproducibility throughout the project.
+
+Documentation was treated as seriously as the code itself, ensuring future users can replicate our work.
+
+Git was used for version control, with commits kept concise and descriptive to track progress transparently.
 
 
