@@ -30,5 +30,5 @@ DAB111_Final_Project/
    ```bash
    source .venv/Scripts/activate
    pip install -r requirements.txt
-   python app.py![alt text](image.png)
+   python app.py
 
