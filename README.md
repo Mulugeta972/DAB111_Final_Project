@@ -65,6 +65,27 @@ templates/ for HTML files rendered by Flask
 python src/app.py
 
 6. We then opened the app in the browser at http://127.0.0.1:5000/ to test the homepage and dashboard. Each team member verified that the templates rendered correctly and that the static files (CSS) were loading as expected.
+## Accessing the Website
+
+Before running the project locally, make sure you have Python installed. Then:
+
+Create and activate a virtual environment (this will be on your own machine):
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate   # Mac/Linux
+   .venv\Scripts\activate      # Windows
+Install the required packages:
+
+bash
+pip install -r requirements.txt
+Start the Flask server:
+
+bash
+flask run
+Open your browser and go to: http://127.0.0.1:5000/
+
+This will run the project locally using your own environment, but with the code cloned from this repository. The homepage and dashboard should render correctly, with templates and static files (CSS) loading as expected.
+
 7. Final polish and documentation After confirming functionality, we updated the README.md to include instructions for setup, running the app, and troubleshooting. We also added a section for team members and project notes to highlight our collaborative effort.
 
 
