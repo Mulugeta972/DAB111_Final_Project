@@ -8,17 +8,22 @@ This project showcases our group’s work for the DAB111 course. It includes a F
 
 ```text
 DAB111_Final_Project/
-├── data/               # Raw datasets (CSV, Excel, JSON)
-├── notebooks/          # Jupyter notebooks for analysis
-├── static/             # CSS, JS, images for web app
-├── templates/          # HTML templates rendered by Flask
-├── src/                # Flask app logic, data scripts, helpers
-│   ├── app.py
-│   ├── routes.py
-│   ├── clean_data.py
-│   └── helpers.py
-├── requirements.txt    # Python dependencies
-└── README.md           # Project overview and instructions
+├── Website/           # Front-end resources or web application files
+├── static/            # CSS, JavaScript, and other static assets
+├── templates/         # HTML templates for rendering web pages
+│   ├── index.html     # Main page template
+│   └── app.py         # Flask application entry point
+├── data_collection/   # Scripts and raw data for data collection
+│   └── us_census_income_data_clean.csv  # Cleaned dataset
+├── data_processing/   # Python scripts for data cleaning and transformation
+│   └── load_income.py # Data loading and preprocessing logic
+├── database/          # Database files and configuration
+│   └── income.db      # SQLite database
+├── docs/              # Project documentation and references
+├── notebooks/         # Jupyter notebooks for EDA and visualization
+├── src/               # Core Python code (models, utilities, API logic)
+├── requirements.txt   # Python dependencies
+└── README.md          # Project overview and instructions
 data: Store raw datasets like CSV, Excel, or JSON.
 
 notebooks: Jupyter notebooks for EDA, visualization, and prototyping.
