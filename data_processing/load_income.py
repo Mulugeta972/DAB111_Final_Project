@@ -1,5 +1,5 @@
 # %% [markdown]
-# # Data Preprocessing: Create DB and Load CSV into SQLite
+# # ata Preprocessing: Create DB and Load CSV into SQLite
 
 # %%
 import sqlite3
