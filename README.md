@@ -2,8 +2,6 @@
 
 <<<<<<< HEAD
 
-This project is the final submission for the **DAB111** course. It demonstrates our ability to collect, process, and store data in a **SQLite database**, and present it through a **Flask-based web application**. The project follows a clean and organized folder structure for easy collaboration and reproducibility.
-
 =======
 This project is the final submission for the **DAB111** course. It demonstrates our ability to collect, process, and store data in a **SQLite database**, and present it through a **Flask-based web application**. The project follows a clean and organized folder structure for easy collaboration and reproducibility.
 >>>>>>> 273426c36dd52cfa467082cc9df276bdd3446c7e
