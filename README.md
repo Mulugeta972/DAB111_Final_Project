@@ -1,6 +1,6 @@
 # DAB111 Final Project – Group Web Page
 
-This project showcases our group’s work for the DAB111 course. It includes a Flask-based web application, organized folder structure, and a professional presentation of our team and project goals.
+This project is the final submission for the **DAB111** course. It demonstrates our ability to collect, process, and store data in a **SQLite database**, and present it through a **Flask-based web application**. The project follows a clean and organized folder structure for easy collaboration and reproducibility.
 
 ---
 
@@ -8,22 +8,24 @@ This project showcases our group’s work for the DAB111 course. It includes a F
 
 ```text
 DAB111_Final_Project/
-├── Website/           # Front-end resources or web application files
-├── static/            # CSS, JavaScript, and other static assets
-├── templates/         # HTML templates for rendering web pages
-│   ├── index.html     # Main page template
-│   └── app.py         # Flask application entry point
-├── data_collection/   # Scripts and raw data for data collection
-│   └── us_census_income_data_clean.csv  # Cleaned dataset
-├── data_processing/   # Python scripts for data cleaning and transformation
-│   └── load_income.py # Data loading and preprocessing logic
-├── database/          # Database files and configuration
-│   └── income.db      # SQLite database
-├── docs/              # Project documentation and references
+├── Website/           # Flask web application files
+│   ├── app.py         # Flask entry point
+│   ├── templates/     # HTML templates (index.html, results.html)
+│   └── static/        # CSS, JS, and other static assets
+├── data_collection/   # Raw datasets
+│   ├── us_census_income_data_clean.csv
+│   └── gym_cleaned.csv
+├── data_processing/   # Python scripts for loading data into SQLite
+│   ├── load_income.py
+│   └── load_gym.py
+├── database/          # SQLite database files
+│   ├── income.db
+│   └── gym.db
+├── docs/              # Documentation and references
 ├── notebooks/         # Jupyter notebooks for EDA and visualization
-├── src/               # Core Python code (models, utilities, API logic)
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project overview and instructions
+
 data: Store raw datasets like CSV, Excel, or JSON.
 
 notebooks: Jupyter notebooks for EDA, visualization, and prototyping.
