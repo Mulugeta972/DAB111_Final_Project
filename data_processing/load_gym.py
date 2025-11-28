@@ -4,8 +4,10 @@ import pandas as pd
 import os
 
 
-csv_path = os.path.join('data_collection', 'gym_cleaned.csv')  
 
+
+csv_path = os.path.join('data_collection', 'gym_cleaned.csv')  
+df = pd.read_csv(csv_path)
 print(df.head())
 
 db_path = os.path.join('database', 'gym.db')
