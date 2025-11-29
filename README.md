@@ -1,12 +1,6 @@
 # DAB111 Final Project – Group Web Page
 
-<<<<<<< HEAD
-
-=======
 This project is the final submission for the **DAB111** course. It demonstrates our ability to collect, process, and store data in a **SQLite database**, and present it through a **Flask-based web application**. The project follows a clean and organized folder structure for easy collaboration and reproducibility.
->>>>>>> 273426c36dd52cfa467082cc9df276bdd3446c7e
-
----
 
 ## 📁 Project Structure
 
@@ -31,7 +25,6 @@ DAB111_Final_Project/
 ├── requirements.txt   # Python dependencie
 =======
 ├── requirements.txt   # Python dependencies
->>>>>>> 273426c36dd52cfa467082cc9df276bdd3446c7e
 └── README.md          # Project overview and instructions
 
 data: Store raw datasets like CSV, Excel, or JSON.
@@ -111,4 +104,11 @@ Documentation was treated as seriously as the code itself, ensuring future users
 
 Git was used for version control, with commits kept concise and descriptive to track progress transparently.
 
+## 🤝 Acknowledgments
 
+This project was completed as part of **DAB111 – Introduction to Python Programming** at **St. Clair College**, Spring 2025.
+
+Special thanks to our instructor for guidance and feedback throughout the term.
+
+For a detailed breakdown of team contributions and collaboration process, please refer to the  
+📄 [Team Collaboration Summary (PDF)](docs/DAB111_Team_Collaboration_Summary.pdf)
