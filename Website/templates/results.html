@@ -1,71 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Results - DAB111 Final Project</title>
+    <meta charset="UTF-8">
+    <title>DAB111 Final Project</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>Project Results</h1>
-        <p>This page summarizes the outcomes of our final project for DAB111: Introduction to Python Programming.</p>
-
-        <h2>Project Overview</h2>
-        <p>We built a Flask-based web application that collects, stores, and presents data using Python and SQLite. The project demonstrates our understanding of core programming concepts, database integration, and web development.</p>
-
-        <h2>Key Components</h2>
-        <ul>
-            <li><strong>Data Collection:</strong> We selected a dataset with multiple variables and data types, suitable for tabular storage.</li>
-            <li><strong>Database:</strong> We created a SQLite database with one table and inserted records using Python’s <code>sqlite3</code> package.</li>
-            <li><strong>Web Application:</strong> We used Flask to build a website with a homepage, results page, and data display functionality.</li>
-            <li><strong>Project Structure:</strong> Our code is organized into folders for data, notebooks, scripts, templates, and static assets.</li>
-            <li><strong>Version Control:</strong> We used Git and GitHub to collaborate and track changes throughout development.</li>
-        </ul>
-
-        <h2>Learning Outcomes</h2>
-        <ul>
-            <li>How to structure a Python project professionally</li>
-            <li>How to use Flask for routing and template rendering</li>
-            <li>How to create and query a SQLite database using Python</li>
-            <li>How to manage dependencies with <code>requirements.txt</code></li>
-            <li>How to collaborate using GitHub and maintain clean documentation</li>
-        </ul>
-
-        <h2>Next Steps</h2>
-        <p>Future improvements could include adding search functionality, allowing users to insert new records, and integrating interactive charts or dashboards.</p>
-
-        <section>
-            <h2>Summary</h2>
-            <p>No results available yet. Once the analysis runs, show tables, charts or text here.</p>
-        </section>
-
-        <section>
-            <h2>Download</h2>
-            <p>Any downloadable files related to our analysis will be provided here. These may include cleaned datasets, summary reports, or visualizations prepared during the project.</p>
-        </section>
-
-        <section>
-            <h2>Dataset Access</h2>
-            <p>You can download the cleaned dataset used in our project:</p>
-
-            <a
-              href="https://raw.githubusercontent.com/Mulugeta972/DAB111_Final_Project/main/data_collection/us_census_income_data_clean.csv"
-              download="us_census_income_data_clean.csv"
-              class="button"
-            >
-              Download CSV
-            </a>
-
-            <p class="note">
-                <strong>Note:</strong> If the file opens in your browser or in Notepad, save it with the 
-                <code>.csv</code> extension. To view it properly in Excel, use 
-                <em>Data → Get Data → From Text/CSV</em> and set the delimiter to <strong>comma (,)</strong>. 
-                Alternatively, you can open it directly in Google Sheets or load it in Python using 
-                <code>pandas.read_csv()</code>.
-            </p>
-        </section>
-
-        <a class="button" href="{{ url_for('home') }}">← Back to Home</a>
-    </div>
+    <h1>Welcome to Our Python Data Analytics Project</h1>
+    <strong>Group Web Page</strong>
+    <p>
+        This site showcases our collaborative work as part of the <strong>Data Analytics program</strong> at <strong>St. Clair College</strong>,
+        specifically for the course <strong>DAB111 – Introduction to Python Programming</strong> (Fall 2025).
+    </p>
+    <p>Team Members: Mulugeta and Nurbiya</p>
+    <a href="{{ url_for('results') }}" class="button">View Project Results →</a>
 </body>
+</html>

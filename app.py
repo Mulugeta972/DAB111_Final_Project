@@ -1,15 +1,10 @@
 from flask import Flask, render_template
 
-app = Flask(
-    __name__,
-    template_folder="Website/templates",
-    static_folder="Website/static"
-)
+app = Flask(__name__, template_folder="Website/templates", static_folder="Website/static")
 
 @app.route("/")
 def home():
     return render_template("index.html")
-
 
 @app.route("/results")
 def results():
@@ -17,4 +12,3 @@ def results():
 
 if __name__ == "__main__":
     app.run(debug=True)
-

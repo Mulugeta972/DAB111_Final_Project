@@ -1,21 +1,18 @@
+<h1 style="color: red;">TEST LINE FROM Website/templates</h1>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAB111 Final Project - Group Web Page</title>
+    <title>DAB111 Final Project</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>DAB111 Final Project</h1>
-        <h2>Welcome to Our Group Web Page</h2>
-        <p>This site showcases our collaborative work for the Data Analytics course (Fall 2025).</p>
-        <p><strong>Team Members:</strong> Mulugeta and Nurbiya</p>
-
-        <!-- 🔗 Navigation link to results page -->
-        <p><a href="{{ url_for('results') }}" class="button">View Project Results →</a></p>
-        
-    </div>
+    <h1>Welcome to Our Group Web Page</h1>
+    <p>
+        This site showcases our collaborative work for the <strong>Data Analytics program</strong> at <strong>St. Clair College</strong>,
+        specifically for the course <strong>DAB111 – Introduction to Python Programming</strong> (Spring 2025).
+    </p>
+    <p>Team Members: Mulugeta and Nurbiya</p>
+    <a href="{{ url_for('results') }}" class="button">View Project Results →</a>
 </body>
 </html>
